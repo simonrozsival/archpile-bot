@@ -135,7 +135,7 @@ const calculateBestLocation = (locations) => {
 };
 
 const saveDocument = (name, municipalityName, edeskyUrl, location) => {
-  return store([ location.lon, location.lat ], { type: 'edesky', category: 'Reálná situace', title: name, municipalityName, edeskyUrl });
+  return store([ location.lon, location.lat ], { type: 'edesky', category: 'Realita', title: name, municipalityName, edeskyUrl });
 };
 
 const processTile = (documentId, foundItems, remainingTiles) => {
